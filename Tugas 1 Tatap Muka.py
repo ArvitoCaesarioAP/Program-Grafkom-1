@@ -587,6 +587,33 @@ def menara():
     glEnd()
     
     #ROKET
+    # sayap kiri
+    glBegin(GL_POLYGON)
+    glColor3ub(237, 16, 0)
+    glVertex2f(161, 130)
+    glVertex2f(161, 110)
+    glVertex2f(161, 103)
+    glVertex2f(161, 71)
+    glVertex2f(153, 71)
+    glVertex2f(153, 103)
+    glEnd()
+
+    #kuncupnya
+    glBegin(GL_POLYGON)
+    glColor3ub(237, 16, 0)
+    glVertex2f(181, 400 ) 
+    glVertex2f(168, 360) 
+    glVertex2f(195, 360)
+    glEnd()
+
+    glBegin(GL_POLYGON)
+    glColor3ub(248, 255, 56)
+    glVertex2f(180, 409)
+    glVertex2f(182, 409)
+    glVertex2f(182, 397)
+    glVertex2f(180, 397)
+    glEnd()
+
     #badan roket
     glBegin(GL_POLYGON)
     glColor3ub(167, 184, 252)
@@ -605,54 +632,103 @@ def menara():
     glVertex2f(168, 95)
     glVertex2f(167, 95)
     glEnd()
-    
-    #sayap depan roket
-    glColor3ub(237, 16, 0)
-    glBegin(GL_POLYGON)
-    glVertex2f(179, 130)
-    glVertex2f(179, 120)
-    glVertex2f(179, 100)
-    glVertex2f(179, 71)
-    glVertex2f(185, 71)
-    glVertex2f(185, 110)
+
+    #sabuk bawah
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(168, 95) 
+    glVertex2f(195, 95) 
+    glVertex2f(195, 100) 
+    glVertex2f(168, 100) 
     glEnd()
 
-    #sayap kanan roket
-    glColor3ub(237, 16, 0)
-    glBegin(GL_POLYGON)
-    glVertex2f(202, 130)
-    glVertex2f(202, 110)
-    glVertex2f(202, 100)
-    glVertex2f(202, 71)
-    glVertex2f(210, 71)
-    glVertex2f(210, 100)
-    glEnd()
-    
-    # sayap kiri
-    glBegin(GL_POLYGON)
-    glColor3ub(237, 16, 0)
-    glVertex2f(161, 130)
-    glVertex2f(161, 110)
-    glVertex2f(161, 103)
-    glVertex2f(161, 71)
-    glVertex2f(153, 71)
-    glVertex2f(153, 103)
+    #Bintang-kecil
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(120, 95) 
+    glVertex2f(124, 95) 
+    glVertex2f(124, 100) 
+    glVertex2f(120, 100) 
     glEnd()
 
-    #Atapnya roket
-    glBegin(GL_POLYGON)
-    glColor3ub(237, 16, 0)
-    glVertex2f(181, 400 ) #A
-    glVertex2f(168, 360) #B
-    glVertex2f(195, 360) #C
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 123) 
+    glVertex2f(126, 123) 
+    glVertex2f(126, 125)
+    glVertex2f(125, 125) 
     glEnd()
 
-    glBegin(GL_POLYGON)
-    glColor3ub(248, 255, 56)
-    glVertex2f(180, 409)
-    glVertex2f(182, 409)
-    glVertex2f(182, 397)
-    glVertex2f(180, 397)
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 250) 
+    glVertex2f(126, 250) 
+    glVertex2f(126, 253) 
+    glVertex2f(125, 253) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 450) 
+    glVertex2f(126, 450) 
+    glVertex2f(126, 453) 
+    glVertex2f(125, 453) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(95, 450) 
+    glVertex2f(96, 450) 
+    glVertex2f(96, 453) 
+    glVertex2f(95, 453) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 60) 
+    glVertex2f(11, 60)  
+    glVertex2f(11, 63) 
+    glVertex2f(10, 63)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 200)
+    glVertex2f(11, 200)
+    glVertex2f(11, 203)
+    glVertex2f(10, 203)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(20, 250)
+    glVertex2f(21, 250)
+    glVertex2f(21, 253)
+    glVertex2f(20, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(499, 250)
+    glVertex2f(500, 250)
+    glVertex2f(500, 253)
+    glVertex2f(499, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(399, 250)
+    glVertex2f(400, 250)
+    glVertex2f(400, 253)
+    glVertex2f(399, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 300)
+    glVertex2f(11, 300)
+    glVertex2f(11, 303)
+    glVertex2f(10, 303)
     glEnd()
 
     #Hiasannya
@@ -689,16 +765,16 @@ def menara():
     glVertex2f(170, 200)
     glEnd()
     
-    #Pintu roket warna biru
+    #Pintu biru
     glBegin(GL_QUADS)
     glColor3ub(1, 1, 66)
-    glVertex2f(169, 315 )
-    glVertex2f(180, 315)
-    glVertex2f(180, 276)
+    glVertex2f(169, 315 ) 
+    glVertex2f(180, 315) 
+    glVertex2f(180, 276) 
     glVertex2f(169, 276)
     glEnd()
 
-    #hiasan pintu belakang
+    #Seleret pintunya
     glBegin(GL_QUADS)
     glColor3ub(199, 129, 0)
     glVertex2f(180, 280)
@@ -726,24 +802,24 @@ def menara():
     #gagang pintu
     glColor3ub(211, 243, 245)
     glBegin(GL_QUADS)
-    glVertex2f(170, 300)
-    glVertex2f(173, 300)
-    glVertex2f(173, 293)
+    glVertex2f(170, 300) 
+    glVertex2f(173, 300) 
+    glVertex2f(173, 293) 
     glVertex2f(170, 293)
     glEnd()
 
     #Bendera merah Putih
     glColor3ub(250, 2, 7)
     glBegin(GL_QUADS)
-    glVertex2f(193, 352)
-    glVertex2f(181, 352)
+    glVertex2f(193, 352) 
+    glVertex2f(181, 352) 
     glVertex2f(181, 345)
-    glVertex2f(193, 345)
+    glVertex2f(193, 345) 
     glEnd()
 
     glColor3ub(255, 255, 255)
     glBegin(GL_QUADS)
-    glVertex2f(193, 345)
+    glVertex2f(193, 345) 
     glVertex2f(181, 345) 
     glVertex2f(181, 338) 
     glVertex2f(193, 338) 
@@ -774,10 +850,10 @@ def menara():
     #sabuk atas
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(168, 357)
-    glVertex2f(195, 357) 
+    glVertex2f(168, 357) 
+    glVertex2f(195, 357)  
     glVertex2f(195, 361) 
-    glVertex2f(168, 361) 
+    glVertex2f(168, 361)
     glEnd()
 
     #Tulisan INA
@@ -839,7 +915,7 @@ def menara():
     glVertex2f(186, 212)
     glEnd()
 
-    #Tiga titik bawah
+    #titik bawah
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
     glVertex2f(172, 164) 
@@ -850,24 +926,24 @@ def menara():
 
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(172, 159)
+    glVertex2f(172, 159) 
     glVertex2f(174, 159) 
     glVertex2f(174, 162) 
-    glVertex2f(172, 162)
+    glVertex2f(172, 162) 
     glEnd()
 
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(172, 155) 
+    glVertex2f(172, 155)
     glVertex2f(174, 155) 
     glVertex2f(174, 158) 
-    glVertex2f(172, 158) 
+    glVertex2f(172, 158)
     glEnd()
 
     #sabuk
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(168, 130) 
+    glVertex2f(168, 130)
     glVertex2f(195, 130) 
     glVertex2f(195, 135) 
     glVertex2f(168, 135) 
@@ -898,6 +974,28 @@ def menara():
     glVertex2f(195, 130) 
     glVertex2f(195, 100) 
     glVertex2f(203, 90) 
+    glEnd()
+
+    #sayap depan roket
+    glColor3ub(237, 16, 0)
+    glBegin(GL_POLYGON)
+    glVertex2f(179, 130)
+    glVertex2f(179, 120)
+    glVertex2f(179, 100)
+    glVertex2f(179, 71)
+    glVertex2f(185, 71)
+    glVertex2f(185, 110)
+    glEnd()
+
+    #sayap kanan roket
+    glColor3ub(237, 16, 0)
+    glBegin(GL_POLYGON)
+    glVertex2f(202, 130)
+    glVertex2f(202, 110)
+    glVertex2f(202, 100)
+    glVertex2f(202, 71)
+    glVertex2f(210, 71)
+    glVertex2f(210, 100)
     glEnd()
 
     # bayangan Roket
