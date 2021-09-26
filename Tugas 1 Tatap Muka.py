@@ -14,6 +14,94 @@ def Bg():
     glEnd()
     
     # bintang
+        glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(120, 95) 
+    glVertex2f(124, 95) 
+    glVertex2f(124, 100) 
+    glVertex2f(120, 100) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 123) 
+    glVertex2f(126, 123) 
+    glVertex2f(126, 125)
+    glVertex2f(125, 125) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 250) 
+    glVertex2f(126, 250) 
+    glVertex2f(126, 253) 
+    glVertex2f(125, 253) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(125, 450) 
+    glVertex2f(126, 450) 
+    glVertex2f(126, 453) 
+    glVertex2f(125, 453) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(95, 450) 
+    glVertex2f(96, 450) 
+    glVertex2f(96, 453) 
+    glVertex2f(95, 453) 
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 60) 
+    glVertex2f(11, 60)  
+    glVertex2f(11, 63) 
+    glVertex2f(10, 63)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 200)
+    glVertex2f(11, 200)
+    glVertex2f(11, 203)
+    glVertex2f(10, 203)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(20, 250)
+    glVertex2f(21, 250)
+    glVertex2f(21, 253)
+    glVertex2f(20, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(499, 250)
+    glVertex2f(500, 250)
+    glVertex2f(500, 253)
+    glVertex2f(499, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(399, 250)
+    glVertex2f(400, 250)
+    glVertex2f(400, 253)
+    glVertex2f(399, 253)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(10, 300)
+    glVertex2f(11, 300)
+    glVertex2f(11, 303)
+    glVertex2f(10, 303)
+    glEnd()
+    
     glColor3ub(255, 255, 255)
     glPointSize(5.0)
     glBegin(GL_POINTS)
@@ -604,10 +692,10 @@ def menara():
     #Pintu roket warna biru
     glBegin(GL_QUADS)
     glColor3ub(1, 1, 66)
-    glVertex2f(169, 315 ) #A
-    glVertex2f(180, 315) #B
-    glVertex2f(180, 276) #C
-    glVertex2f(169, 276)#D
+    glVertex2f(169, 315 )
+    glVertex2f(180, 315)
+    glVertex2f(180, 276)
+    glVertex2f(169, 276)
     glEnd()
 
     #hiasan pintu belakang
@@ -638,27 +726,27 @@ def menara():
     #gagang pintu
     glColor3ub(211, 243, 245)
     glBegin(GL_QUADS)
-    glVertex2f(170, 300) #kiri
-    glVertex2f(173, 300) #bawah 
-    glVertex2f(173, 293) #kanan
-    glVertex2f(170, 293) #atas
+    glVertex2f(170, 300)
+    glVertex2f(173, 300)
+    glVertex2f(173, 293)
+    glVertex2f(170, 293)
     glEnd()
 
     #Bendera merah Putih
     glColor3ub(250, 2, 7)
     glBegin(GL_QUADS)
-    glVertex2f(193, 352) #kiri
-    glVertex2f(181, 352) #bawah 
-    glVertex2f(181, 345) #kanan
-    glVertex2f(193, 345) #atas
+    glVertex2f(193, 352)
+    glVertex2f(181, 352)
+    glVertex2f(181, 345)
+    glVertex2f(193, 345)
     glEnd()
 
     glColor3ub(255, 255, 255)
     glBegin(GL_QUADS)
-    glVertex2f(193, 345) #kiri
-    glVertex2f(181, 345) #bawah 
-    glVertex2f(181, 338) #kanan
-    glVertex2f(193, 338) #atas
+    glVertex2f(193, 345)
+    glVertex2f(181, 345) 
+    glVertex2f(181, 338) 
+    glVertex2f(193, 338) 
     glEnd()
     
     #Hiasan Segitiga bawah atas
@@ -673,9 +761,9 @@ def menara():
     #Hiasan segitiga bawah
     glBegin(GL_TRIANGLES)
     glColor3ub(94, 93, 92)
-    glVertex2f(170, 125) #A
-    glVertex2f(170, 100)#B
-    glVertex2f(193, 125)#C
+    glVertex2f(170, 125) 
+    glVertex2f(170, 100)
+    glVertex2f(193, 125)
     glEnd()
 
     glBegin(GL_LINE_STRIP);
@@ -686,10 +774,10 @@ def menara():
     #sabuk atas
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(168, 357) #kiri
-    glVertex2f(195, 357) #bawah 
-    glVertex2f(195, 361) #kanan
-    glVertex2f(168, 361) #atas
+    glVertex2f(168, 357)
+    glVertex2f(195, 357) 
+    glVertex2f(195, 361) 
+    glVertex2f(168, 361) 
     glEnd()
 
     #Tulisan INA
@@ -754,35 +842,35 @@ def menara():
     #Tiga titik bawah
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(172, 164) #kiri
-    glVertex2f(174, 164) #bawah 
-    glVertex2f(174, 167) #kanan
-    glVertex2f(172, 167) #atas
+    glVertex2f(172, 164) 
+    glVertex2f(174, 164) 
+    glVertex2f(174, 167) 
+    glVertex2f(172, 167) 
     glEnd()
 
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(172, 159) #kiri
-    glVertex2f(174, 159) #bawah 
-    glVertex2f(174, 162) #kanan
-    glVertex2f(172, 162) #atas
+    glVertex2f(172, 159)
+    glVertex2f(174, 159) 
+    glVertex2f(174, 162) 
+    glVertex2f(172, 162)
     glEnd()
 
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(172, 155) #kiri
-    glVertex2f(174, 155) #bawah 
-    glVertex2f(174, 158) #kanan
-    glVertex2f(172, 158) #atas
+    glVertex2f(172, 155) 
+    glVertex2f(174, 155) 
+    glVertex2f(174, 158) 
+    glVertex2f(172, 158) 
     glEnd()
 
     #sabuk
     glColor3ub(1, 1, 66)
     glBegin(GL_QUADS)
-    glVertex2f(168, 130) #kiri
-    glVertex2f(195, 130) #bawah 
-    glVertex2f(195, 135) #kanan
-    glVertex2f(168, 135) #atas
+    glVertex2f(168, 130) 
+    glVertex2f(195, 130) 
+    glVertex2f(195, 135) 
+    glVertex2f(168, 135) 
     glEnd()
 
     #bawah roket
@@ -797,19 +885,19 @@ def menara():
     #gagang sayap kiri
     glColor3ub(237, 16, 0)
     glBegin(GL_QUADS)
-    glVertex2f(160, 110 ) #kiri
-    glVertex2f(168, 130) #bawah 
-    glVertex2f(168, 100) #kanan
-    glVertex2f(160, 90) #atas
+    glVertex2f(160, 110 ) 
+    glVertex2f(168, 130) 
+    glVertex2f(168, 100) 
+    glVertex2f(160, 90) 
     glEnd()
     
     #gagang sayap kanan
     glColor3ub(237, 16, 0)
     glBegin(GL_QUADS)
-    glVertex2f(203, 110) #kiri
-    glVertex2f(195, 130) #bawah 
-    glVertex2f(195, 100) #kanan
-    glVertex2f(203, 90) #atas
+    glVertex2f(203, 110) 
+    glVertex2f(195, 130) 
+    glVertex2f(195, 100) 
+    glVertex2f(203, 90) 
     glEnd()
 
     # bayangan Roket
