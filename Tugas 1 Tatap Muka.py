@@ -14,7 +14,7 @@ def Bg():
     glEnd()
     
     # bintang
-        glColor3ub(255, 255, 255)
+    glColor3ub(255, 255, 255)
     glBegin(GL_QUADS)
     glVertex2f(120, 95) 
     glVertex2f(124, 95) 
