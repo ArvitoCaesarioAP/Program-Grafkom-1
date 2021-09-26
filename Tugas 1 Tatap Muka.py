@@ -801,7 +801,6 @@ def menara():
     glVertex2f(168, 130) #bawah 
     glVertex2f(168, 100) #kanan
     glVertex2f(160, 90) #atas
-
     glEnd()
     
     #gagang sayap kanan
@@ -811,7 +810,6 @@ def menara():
     glVertex2f(195, 130) #bawah 
     glVertex2f(195, 100) #kanan
     glVertex2f(203, 90) #atas
-
     glEnd()
 
     # bayangan Roket
