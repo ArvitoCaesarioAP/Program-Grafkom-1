@@ -12,6 +12,85 @@ def Bg():
     glVertex2f(500, 500)
     glVertex2f(500, 0)
     glEnd()
+    
+    # bintang
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(200, 100)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(7.0)
+    glBegin(GL_POINTS)
+    glVertex2f(300, 200)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(10.0)
+    glBegin(GL_POINTS)
+    glVertex2f(400, 250)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(450, 300)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(7.0)
+    glBegin(GL_POINTS)
+    glVertex2f(425, 355)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(80, 320)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(10.0)
+    glBegin(GL_POINTS)
+    glVertex2f(160, 300)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(180, 420)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(7.0)
+    glBegin(GL_POINTS)
+    glVertex2f(230, 400)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(7.0)
+    glBegin(GL_POINTS)
+    glVertex2f(20, 450)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(250, 300)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(330, 410)
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glPointSize(5.0)
+    glBegin(GL_POINTS)
+    glVertex2f(55, 130)
+    glEnd()
 
 def Land():
     glBegin(GL_QUADS)
