@@ -497,6 +497,331 @@ def menara():
     glVertex2f(140, 10)
     glVertex2f(90, 5)
     glEnd()
+    
+    #ROKET
+    #badan roket
+    glBegin(GL_POLYGON)
+    glColor3ub(167, 184, 252)
+    glVertex2f(195, 361)
+    glVertex2f(195, 230)
+    glVertex2f(195, 210)
+    glVertex2f(195, 95)
+    glVertex2f(168, 95)
+    glVertex2f(168, 361)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(9, 11, 23)
+    glVertex2f(167, 100)
+    glVertex2f(168, 100)
+    glVertex2f(168, 95)
+    glVertex2f(167, 95)
+    glEnd()
+    
+    #sayap depan roket
+    glColor3ub(237, 16, 0)
+    glBegin(GL_POLYGON)
+    glVertex2f(179, 130)
+    glVertex2f(179, 120)
+    glVertex2f(179, 100)
+    glVertex2f(179, 71)
+    glVertex2f(185, 71)
+    glVertex2f(185, 110)
+    glEnd()
+
+    #sayap kanan roket
+    glColor3ub(237, 16, 0)
+    glBegin(GL_POLYGON)
+    glVertex2f(202, 130)
+    glVertex2f(202, 110)
+    glVertex2f(202, 100)
+    glVertex2f(202, 71)
+    glVertex2f(210, 71)
+    glVertex2f(210, 100)
+    glEnd()
+    
+    # sayap kiri
+    glBegin(GL_POLYGON)
+    glColor3ub(237, 16, 0)
+    glVertex2f(161, 130)
+    glVertex2f(161, 110)
+    glVertex2f(161, 103)
+    glVertex2f(161, 71)
+    glVertex2f(153, 71)
+    glVertex2f(153, 103)
+    glEnd()
+
+    #Atapnya roket
+    glBegin(GL_POLYGON)
+    glColor3ub(237, 16, 0)
+    glVertex2f(181, 400 ) #A
+    glVertex2f(168, 360) #B
+    glVertex2f(195, 360) #C
+    glEnd()
+
+    glBegin(GL_POLYGON)
+    glColor3ub(248, 255, 56)
+    glVertex2f(180, 409)
+    glVertex2f(182, 409)
+    glVertex2f(182, 397)
+    glVertex2f(180, 397)
+    glEnd()
+
+    #Hiasannya
+    glBegin(GL_QUADS)
+    glColor3ub(97, 97, 97)
+    glVertex2f(190, 292)
+    glVertex2f(192, 292)
+    glVertex2f(192, 290)
+    glVertex2f(190, 290)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(97, 97, 97)
+    glVertex2f(180, 297)
+    glVertex2f(182, 297)
+    glVertex2f(182, 295)
+    glVertex2f(180, 295)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(97, 97, 97)
+    glVertex2f(185, 302)
+    glVertex2f(187, 302)
+    glVertex2f(187, 300)
+    glVertex2f(185, 300)
+    glEnd()
+
+    #jendela roket persegi
+    glBegin(GL_LINES)
+    glColor3ub(94, 93, 92)
+    glVertex2f(170, 177)
+    glVertex2f(193, 177)
+    glVertex2f(193, 200)
+    glVertex2f(170, 200)
+    glEnd()
+    
+    #Pintu roket warna biru
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(169, 315 ) #A
+    glVertex2f(180, 315) #B
+    glVertex2f(180, 276) #C
+    glVertex2f(169, 276)#D
+    glEnd()
+
+    #hiasan pintu belakang
+    glBegin(GL_QUADS)
+    glColor3ub(199, 129, 0)
+    glVertex2f(180, 280)
+    glVertex2f(195, 280)
+    glVertex2f(195, 276)
+    glVertex2f(180, 276)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(199, 129, 0)
+    glVertex2f(180, 315)
+    glVertex2f(195, 315)
+    glVertex2f(195, 311)
+    glVertex2f(180, 311)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(199, 129, 0)
+    glVertex2f(168, 244)
+    glVertex2f(195, 244)
+    glVertex2f(195, 240)
+    glVertex2f(168, 240)
+    glEnd()
+
+    #gagang pintu
+    glColor3ub(211, 243, 245)
+    glBegin(GL_QUADS)
+    glVertex2f(170, 300) #kiri
+    glVertex2f(173, 300) #bawah 
+    glVertex2f(173, 293) #kanan
+    glVertex2f(170, 293) #atas
+    glEnd()
+
+    #Bendera merah Putih
+    glColor3ub(250, 2, 7)
+    glBegin(GL_QUADS)
+    glVertex2f(193, 352) #kiri
+    glVertex2f(181, 352) #bawah 
+    glVertex2f(181, 345) #kanan
+    glVertex2f(193, 345) #atas
+    glEnd()
+
+    glColor3ub(255, 255, 255)
+    glBegin(GL_QUADS)
+    glVertex2f(193, 345) #kiri
+    glVertex2f(181, 345) #bawah 
+    glVertex2f(181, 338) #kanan
+    glVertex2f(193, 338) #atas
+    glEnd()
+    
+    #Hiasan Segitiga bawah atas
+    glBegin(GL_LINE_BIT)
+    glColor3ub(94, 93, 92)
+    glVertex2f(170, 140)
+    glVertex2f(193, 140)
+    glVertex2f(193, 170)
+    glVertex2f(170, 170)
+    glEnd()
+
+    #Hiasan segitiga bawah
+    glBegin(GL_TRIANGLES)
+    glColor3ub(94, 93, 92)
+    glVertex2f(170, 125) #A
+    glVertex2f(170, 100)#B
+    glVertex2f(193, 125)#C
+    glEnd()
+
+    glBegin(GL_LINE_STRIP);
+    glVertex2f (170, 340);
+    glVertex2f (170, 360);
+    glEnd()
+    
+    #sabuk atas
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(168, 357) #kiri
+    glVertex2f(195, 357) #bawah 
+    glVertex2f(195, 361) #kanan
+    glVertex2f(168, 361) #atas
+    glEnd()
+
+    #Tulisan INA
+    # I
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(170, 206)
+    glVertex2f(172, 206)
+    glVertex2f(172, 230)
+    glVertex2f(170, 230)
+    glEnd()
+    #N
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(174, 206)
+    glVertex2f(176, 206)
+    glVertex2f(176, 230)
+    glVertex2f(174, 230)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(176, 230)
+    glVertex2f(181, 216)
+    glVertex2f(181, 206)
+    glVertex2f(176, 220)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(181, 206)
+    glVertex2f(183, 206)
+    glVertex2f(183, 230)
+    glVertex2f(181, 230)
+    glEnd()
+
+    #A
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(184, 206)
+    glVertex2f(186, 206)
+    glVertex2f(188, 230)
+    glVertex2f(186, 230)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(190, 206)
+    glVertex2f(192, 206)
+    glVertex2f(190, 230)
+    glVertex2f(188, 230)
+    glEnd()
+
+    glBegin(GL_QUADS)
+    glColor3ub(1, 1, 66)
+    glVertex2f(186, 210)
+    glVertex2f(190, 210)
+    glVertex2f(190, 212)
+    glVertex2f(186, 212)
+    glEnd()
+
+    #Tiga titik bawah
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(172, 164) #kiri
+    glVertex2f(174, 164) #bawah 
+    glVertex2f(174, 167) #kanan
+    glVertex2f(172, 167) #atas
+    glEnd()
+
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(172, 159) #kiri
+    glVertex2f(174, 159) #bawah 
+    glVertex2f(174, 162) #kanan
+    glVertex2f(172, 162) #atas
+    glEnd()
+
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(172, 155) #kiri
+    glVertex2f(174, 155) #bawah 
+    glVertex2f(174, 158) #kanan
+    glVertex2f(172, 158) #atas
+    glEnd()
+
+    #sabuk
+    glColor3ub(1, 1, 66)
+    glBegin(GL_QUADS)
+    glVertex2f(168, 130) #kiri
+    glVertex2f(195, 130) #bawah 
+    glVertex2f(195, 135) #kanan
+    glVertex2f(168, 135) #atas
+    glEnd()
+
+    #bawah roket
+    glBegin(GL_QUADS)
+    glColor3ub(219, 202, 193)
+    glVertex2f(170, 80)
+    glVertex2f(193, 80)
+    glVertex2f(190, 95)
+    glVertex2f(173, 95)
+    glEnd()
+
+    #gagang sayap kiri
+    glColor3ub(237, 16, 0)
+    glBegin(GL_QUADS)
+    glVertex2f(160, 110 ) #kiri
+    glVertex2f(168, 130) #bawah 
+    glVertex2f(168, 100) #kanan
+    glVertex2f(160, 90) #atas
+
+    glEnd()
+    
+    #gagang sayap kanan
+    glColor3ub(237, 16, 0)
+    glBegin(GL_QUADS)
+    glVertex2f(203, 110) #kiri
+    glVertex2f(195, 130) #bawah 
+    glVertex2f(195, 100) #kanan
+    glVertex2f(203, 90) #atas
+
+    glEnd()
+
+    # bayangan Roket
+    glBegin(GL_QUADS)
+    glColor3ub(8, 46, 4) 
+    glVertex2f(190, 10)
+    glVertex2f(220, 10)
+    glVertex2f(230, 5)
+    glVertex2f(220, 5)
+    glEnd()
 
 def jembatan():
     # jembatan atas
@@ -504,8 +829,8 @@ def jembatan():
     glColor3ub(85, 75, 75)
     glBegin(GL_QUADS) 
     glVertex2f(115, 270)
-    glVertex2f(155, 270)
-    glVertex2f(155, 275)
+    glVertex2f(165, 270)
+    glVertex2f(165, 275)
     glVertex2f(115, 275)
     glEnd()
 
@@ -513,8 +838,8 @@ def jembatan():
     glColor3ub(85, 75, 75)
     glBegin(GL_QUADS) 
     glVertex2f(115, 310)
-    glVertex2f(155, 310)
-    glVertex2f(155, 315)
+    glVertex2f(165, 310)
+    glVertex2f(165, 315)
     glVertex2f(115, 315)
     glEnd()
 
@@ -522,8 +847,8 @@ def jembatan():
     glColor3ub(224, 220, 220)
     glBegin(GL_QUADS) 
     glVertex2f(115, 275)
-    glVertex2f(155, 275)
-    glVertex2f(155, 310)
+    glVertex2f(165, 275)
+    glVertex2f(165, 310)
     glVertex2f(115, 310)
     glEnd()
 
@@ -547,6 +872,13 @@ def jembatan():
     glVertex2f(135, 310)
     glVertex2f(145, 275)
     glEnd()
+    
+    # besi atas 4
+    glColor3ub(196, 196, 196)
+    glBegin(GL_LINES) 
+    glVertex2f(145, 310)
+    glVertex2f(155, 275)
+    glEnd()
 
     # besi bawah
     glColor3ub(196, 196, 196)
@@ -568,13 +900,20 @@ def jembatan():
     glVertex2f(145, 310)
     glVertex2f(135, 275)
     glEnd()
+    
+    # besi bawah 4
+    glColor3ub(196, 196, 196)
+    glBegin(GL_LINES) 
+    glVertex2f(155, 310)
+    glVertex2f(145, 275)
+    glEnd()
 
     # pintu jembatan
     glColor3ub(196, 196, 196)
     glBegin(GL_QUADS) 
     glVertex2f(150, 275)
-    glVertex2f(155, 275)
-    glVertex2f(155, 310)
+    glVertex2f(165, 275)
+    glVertex2f(165, 310)
     glVertex2f(150, 310)
     glEnd()
 
@@ -583,8 +922,8 @@ def jembatan():
     glColor3ub(85, 75, 75)
     glBegin(GL_QUADS) 
     glVertex2f(115, 170)
-    glVertex2f(155, 170)
-    glVertex2f(155, 175)
+    glVertex2f(165, 170)
+    glVertex2f(165, 175)
     glVertex2f(115, 175)
     glEnd()
 
@@ -592,8 +931,8 @@ def jembatan():
     glColor3ub(85, 75, 75)
     glBegin(GL_QUADS) 
     glVertex2f(115, 200)
-    glVertex2f(155, 200)
-    glVertex2f(155, 205)
+    glVertex2f(165, 200)
+    glVertex2f(165, 205)
     glVertex2f(115, 205)
     glEnd()
 
@@ -601,8 +940,8 @@ def jembatan():
     glColor3ub(224, 220, 220)
     glBegin(GL_QUADS) 
     glVertex2f(115, 175)
-    glVertex2f(155, 175)
-    glVertex2f(155, 200)
+    glVertex2f(165, 175)
+    glVertex2f(165, 200)
     glVertex2f(115, 200)
     glEnd()
 
@@ -626,6 +965,13 @@ def jembatan():
     glVertex2f(135, 200)
     glVertex2f(145, 175)
     glEnd()
+    
+    # besi atas 4
+    glColor3ub(196, 196, 196)
+    glBegin(GL_LINES) 
+    glVertex2f(145, 200)
+    glVertex2f(145, 175)
+    glEnd()
 
     # besi bawah
     glColor3ub(196, 196, 196)
@@ -646,6 +992,13 @@ def jembatan():
     glBegin(GL_LINES) 
     glVertex2f(145, 200)
     glVertex2f(135, 175)
+    glEnd()
+    
+    # besi bawah 4
+    glColor3ub(196, 196, 196)
+    glBegin(GL_LINES) 
+    glVertex2f(155, 200)
+    glVertex2f(145, 175)
     glEnd()
 
     # pintu jembatan
